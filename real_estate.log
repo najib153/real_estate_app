@@ -1,0 +1,24 @@
+2025-03-30 01:24:55,676 - INFO - Starting real estate price prediction
+2025-03-30 01:24:55,676 - ERROR - Failed to load data: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:24:55,676 - ERROR - Application failed: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:24:55,676 - ERROR - Failed to load data: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:26:28,044 - INFO - Starting real estate price prediction
+2025-03-30 01:26:28,044 - ERROR - Failed to load data: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:26:28,044 - ERROR - Application failed: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:26:28,060 - INFO - Successfully loaded data from data\final_real_estate.csv
+2025-03-30 01:42:37,170 - INFO - Starting real estate price prediction
+2025-03-30 01:42:37,170 - ERROR - Failed to load data: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:42:37,170 - ERROR - Application failed: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:42:37,186 - INFO - Successfully loaded data from data\final_real_estate.csv
+2025-03-30 01:44:29,036 - INFO - Starting real estate price prediction
+2025-03-30 01:44:29,036 - ERROR - Failed to load data: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:44:29,036 - ERROR - Application failed: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:44:29,051 - INFO - Successfully loaded data from data\final_real_estate.csv
+2025-03-30 01:45:32,177 - INFO - Starting real estate price prediction
+2025-03-30 01:45:32,177 - ERROR - Failed to load data: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:45:32,177 - ERROR - Application failed: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:45:32,177 - INFO - Successfully loaded data from data\final_real_estate.csv
+2025-03-30 01:47:13,647 - INFO - Starting real estate price prediction
+2025-03-30 01:47:13,647 - ERROR - Failed to load data: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:47:13,647 - ERROR - Application failed: [Errno 2] No such file or directory: 'final_real_estate.csv'
+2025-03-30 01:47:13,647 - INFO - Successfully loaded data from data\final_real_estate.csv
