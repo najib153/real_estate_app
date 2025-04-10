@@ -9,26 +9,29 @@ from visualization import plot_decision_tree
 st.set_page_config(page_title="Real Estate Predictor", layout="wide")
 
 # Title
-st.title("🏠 Real Estate Price Prediction")
+st.title(" Real Estate Price Prediction")
 st.write("Predict property prices using machine learning")
 
 # Sidebar inputs
 with st.sidebar:
     st.header("Property Details")
     year_sold = st.number_input("Year Sold", 2000, 2025, 2022)
+    year_built = st.number_input("Year Built", 1900, 2025, 2000)
+    
+    # Calculate property_age automatically
+    property_age = year_sold - year_built
+    st.number_input("Property Age", 0, 100, property_age, disabled=True)
+    
     property_tax = st.number_input("Property Tax", 0, 10000, 2000)
     insurance = st.number_input("Insurance", 0, 500, 100)
     beds = st.number_input("Bedrooms", 1, 10, 2)
     baths = st.number_input("Bathrooms", 1, 10, 2)
     sqft = st.number_input("Square Feet", 500, 10000, 1500)
-    year_built = st.number_input("Year Built", 1900, 2025, 2000)
     lot_size = st.number_input("Lot Size", 0, 100000, 5000)
     basement = st.selectbox("Basement", [0, 1], format_func=lambda x: "Yes" if x else "No")
     popular = st.selectbox("Popular Home", [0, 1], format_func=lambda x: "Yes" if x else "No")
     recession = st.selectbox("Recession Period", [0, 1], format_func=lambda x: "Yes" if x else "No")
-    property_age = st.number_input("Property Age", 0, 100, 10)
     property_type = st.radio("Property Type", ["House", "Bunglow", "Condo"], index=0)
-
 # Convert property type to binary columns
 property_type_map = {
     "House": [0, 0],
