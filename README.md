@@ -1,4 +1,4 @@
-# Real Estate Price Predictor 🏠
+# Real Estate Price Predictor 
 
 A Streamlit web app for predicting property prices using machine learning.
 
